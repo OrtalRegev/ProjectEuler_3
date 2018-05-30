@@ -11,4 +11,4 @@ while num != 1:
             i += 1
         else:
             i += 2
-print(set)
+print(set[len(set)-1])
