@@ -1,9 +1,9 @@
 num = 600851475143
-set = []
+biggest = 0
 i = 2
 while num != 1:
     if num % i == 0:
-        set.append(i)
+        biggest = i
         num /= i
         continue
     else:
@@ -11,4 +11,4 @@ while num != 1:
             i += 1
         else:
             i += 2
-print(set[len(set)-1])
+print(biggest)
